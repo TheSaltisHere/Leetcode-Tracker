@@ -1,4 +1,3 @@
-from itertools import permutations
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
         arr_odd=[]
