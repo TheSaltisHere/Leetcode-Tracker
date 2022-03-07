@@ -12,7 +12,6 @@ class Solution:
         while len(arr_odd)!=0 or len(arr_even)!=0:
             final.append(arr_even.pop())
             final.append(arr_odd.pop())
-        print(final)
         return final
             
         
